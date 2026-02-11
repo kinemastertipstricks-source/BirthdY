@@ -114,13 +114,17 @@ animation:floatBalloon 6s infinite ease-in;
 
 <body>
 
-<button id="openBtn">Open Your Letter 🎀</button>
+<button id="openBtn">Open Your Letter Pookie🎀</button>
 
 <div id="main">
 
 <div id="messageBox">
-<h1>Happy Birthday 💖</h1>
-<p>You the real magic. Stay beautiful. 🎂🎈</p>
+<h1>Happy Birthday Chuchu 💖</h1>
+<p>You the real magic. Stay beautiful.
+    May you live Your life with prosperity afterstepping into 
+    the maturity. Cant believe You are already 18 like whaaaa... 
+    You are still that 16 year old girl (Chhotu) in my eyes when I
+first saw You. Go Gurl conquer the Worlddddd🎂🎈</p>
 </div>
 
 </div>
@@ -150,7 +154,7 @@ startFloating();
 function startFloating(){
 for(let i=1;i<=32;i++){
 let img=document.createElement("img");
-img.src="images/"+i+".jpeg";   // rename if needed
+img.src="images/"+i+".jpeg";   
 img.className="floating";
 img.style.top=Math.random()*80+"%";
 img.style.left=Math.random()*90+"%";
@@ -191,7 +195,7 @@ img.style.borderRadius="15px";
 
 let hidden=document.createElement("div");
 hidden.className="hiddenMessage";
-hidden.innerText="You make life brighter 💕";
+hidden.innerText="You make life brighter fr 💕";
 
 container.appendChild(img);
 container.appendChild(hidden);
